@@ -8,5 +8,7 @@ def nyc_pigeon_organizer(data)
     end 
   end
   x = final_hash.keys 
-  data[:color].each do 
+  data[:color].each do |bird_color, name| 
+    
+  end 
 end
