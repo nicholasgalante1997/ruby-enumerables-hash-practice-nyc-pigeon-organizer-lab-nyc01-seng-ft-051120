@@ -15,7 +15,25 @@ def nyc_pigeon_organizer(data)
         final_hash[item][:color] << bird_color.to_s 
       end 
     end
-    end 
+    end  
   end 
+data[:gender].each do |bird_gender, name|
+  name.each do |bird|
+    x.each do |item| 
+      if bird === item 
+        final_hash[item][:gender] << bird_gender.to_s
+      end 
+    end
+  end
+end
+data[:lives].each do |bird_lives, name|
+  name.each do |bird| 
+    x.each do |item| 
+      if bird === item 
+        final_hash[item][:lives] << bird_lives.to_s 
+      end
+    end
+  end
+end
 
 end
