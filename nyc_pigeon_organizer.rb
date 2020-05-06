@@ -35,5 +35,5 @@ data[:lives].each do |bird_lives, name|
     end
   end
 end
-
+return final_hash
 end
