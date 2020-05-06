@@ -12,6 +12,8 @@ def nyc_pigeon_organizer(data)
     name.each do |bird|
     x.each do |item| 
       if bird === item 
+        
+      end
     end 
   end 
 end
