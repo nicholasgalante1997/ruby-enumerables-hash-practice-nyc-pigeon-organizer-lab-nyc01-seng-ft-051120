@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |first_level, other_first|
     other_first.each do |category, array|
     array.each do |name|
-    final_hash[name] = 
+    final_hash[name] = {:color => [], 
     end 
     end 
   end
